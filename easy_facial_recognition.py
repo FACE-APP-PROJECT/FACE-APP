@@ -1,4 +1,3 @@
-# Code Anis - Defend Intelligence
 import os
 import cv2
 import dlib
@@ -84,17 +83,9 @@ def easy_face_reco(frame, known_face_encodings, known_face_names):
 
 
 if __name__ == '__main__':
-    #args = parser.parse_args()
 
     print('[INFO] Importing faces...')
-    '''face_to_encode_path = ['Zuckerberg.png','Shahrukh_khan.png','angelina.png','angelina.png']
-    known_face_encodings = []
-    for face_to_encode_path in face_to_encode_path:
-        image = PIL.Image.open(face_to_encode_path)
-        image = np.array(image)
-        face_encoded = encode_face(image)[0][0]
-        known_face_encodings.append(face_encoded)
-    known_face_names=['Zuckerberg','obama','angelina','angelina']'''
+    
     image_of_angelina = face_recognition.load_image_file('./Known_faces/angelina.png')
     angelina_face_encoding = face_recognition.face_encodings(image_of_angelina)[0]
 
@@ -280,7 +271,6 @@ if __name__ == '__main__':
         # Capture frame-by-frame
         easy_face_reco(frame, known_face_encodings, known_face_names)
         cv2.imshow('Easy Facial Recognition App', frame)
-        #os.system('espeak "{}"'.format(frame))
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     print('[INFO] Stopping System')
