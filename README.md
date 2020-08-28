@@ -55,12 +55,15 @@ import face_recognition
 9- run the demo :
 
 image : python interface.py -i images/test1.jpg
+
         python easy_facial_recognition.py -i images/obama_michelle.jpg
 
 video : python interface.py -i videos/video.mp4
+
         python easy_facial_recognition.py -i videos/test.mp4
 
 real time : python interface.py
+
             python easy_facial_recognition.py
 
 
