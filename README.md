@@ -4,22 +4,24 @@
 
 2- install Anaconda : [Download Anacoda](https://www.anaconda.com/) 
 
-3- From the Start menu, search for and open "Anaconda Prompt"
+3- install Espeak : [Download Espeak](https://sourceforge.net/projects/espeak/) 
 
-4- Create Virtual Environment :Open the command prompt and execute the following command 
+4- From the Start menu, search for and open "Anaconda Prompt"
+
+5- Create Virtual Environment :Open the command prompt and execute the following command 
 
 
 ```
 conda create --name myenv
 ```
 
-5-  Activate the environment :
+6-  Activate the environment :
 
 
 ```
 conda activate myenv
 ```
-6- Install OpenCV, dlib and imutils... :
+7- Install OpenCV, dlib and imutils... :
 Continuing from the above prompt, execute the following commands
 
 
@@ -37,7 +39,7 @@ conda install -c akode face_recognition_models
 ```
 
 
-7- Test your installation :
+8- Test your installation :
 Open the python prompt on the command line by typing python on the command prompt
 
 
@@ -47,15 +49,21 @@ import cv2
 import dlib
 dlib.__version__
 cv2.__version__
+import face_recognition
 ```
 
-8- run the demo :
+9- run the demo :
 
 image : python interface.py -i images/test1.jpg
+        python easy_facial_recognition.py -i images/obama_michelle.jpg
 
 video : python interface.py -i videos/video.mp4
+        python easy_facial_recognition.py -i videos/test.mp4
 
 real time : python interface.py
+            python easy_facial_recognition.py
+
+
 
 
 
