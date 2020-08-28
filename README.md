@@ -1,10 +1,10 @@
 # Face-App
 
-1- install Python : [Download Python](https://www.python.org/downloads/)
+1- Install Python : [Download Python](https://www.python.org/downloads/)
 
-2- install Anaconda : [Download Anaconda](https://www.anaconda.com/) 
+2- Install Anaconda : [Download Anaconda](https://www.anaconda.com/) 
 
-3- install Espeak : [Download Espeak](https://sourceforge.net/projects/espeak/) 
+3- Install Espeak : [Download Espeak](https://sourceforge.net/projects/espeak/) 
 
 4- From the Start menu, search for and open "Anaconda Prompt"
 
@@ -52,7 +52,7 @@ cv2.__version__
 import face_recognition
 ```
 
-9- run the demo :
+9- Run the demo :
 
 ### image : 
 
