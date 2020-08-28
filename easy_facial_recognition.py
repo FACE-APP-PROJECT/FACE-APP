@@ -271,6 +271,7 @@ if __name__ == '__main__':
             break    
         # Capture frame-by-frame
         easy_face_reco(frame, known_face_encodings, known_face_names)
+        print("Time : {:.3f}".format(time.time() - t))
         cv2.imshow('Easy Facial Recognition App', frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
