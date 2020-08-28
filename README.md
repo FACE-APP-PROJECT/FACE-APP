@@ -25,11 +25,15 @@ Continuing from the above prompt, execute the following commands
 
 
 ```
+pip install opencv-python
+pip install numpy
 conda install -c conda-forge dlib
 pip install opencv-contrib-python --upgrade
 pip install imutils
 conda install -c anaconda scikit-image
 conda install -c anaconda scikit learn
+pip install face-recognition
+conda install -c akode face_recognition_models
 ```
 
 
