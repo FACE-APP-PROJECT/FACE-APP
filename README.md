@@ -10,21 +10,17 @@
 
 5- Create Virtual Environment :Open the command prompt and execute the following command 
 
-
 ```
 conda create --name myenv
 ```
 
 6-  Activate the environment :
 
-
 ```
 conda activate myenv
 ```
 7- Install OpenCV, dlib and imutils... :
 Continuing from the above prompt, execute the following commands
-
-
 
 ```
 pip install opencv-python
@@ -38,11 +34,8 @@ pip install face-recognition
 conda install -c akode face_recognition_models
 ```
 
-
 8- Test your installation :
 Open the python prompt on the command line by typing python on the command prompt
-
-
 
 ```
 import cv2
