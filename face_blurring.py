@@ -1,5 +1,5 @@
+# Code KN-TEAM
 # Blur Your Face Automatically with OpenCV and Dlib
-# See tutorial at https://www.youtube.com/watch?v=QKggnWdCTNY
 
 import numpy as np
 import cv2
