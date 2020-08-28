@@ -1,4 +1,4 @@
-#!/usr/bin/python
+# Code KN-TEAM
 
 import dlib
 import cv2
