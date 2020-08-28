@@ -2,7 +2,7 @@
 
 1- install Python : [Download Python](https://www.python.org/downloads/)
 
-2- install Anaconda : [Download Anacoda](https://www.anaconda.com/) 
+2- install Anaconda : [Download Anaconda](https://www.anaconda.com/) 
 
 3- install Espeak : [Download Espeak](https://sourceforge.net/projects/espeak/) 
 
@@ -54,17 +54,23 @@ import face_recognition
 
 9- run the demo :
 
-image : python interface.py -i images/test1.jpg
+image : 
 
-        python easy_facial_recognition.py -i images/obama_michelle.jpg
+python interface.py -i images/test1.jpg
 
-video : python interface.py -i videos/video.mp4
+python easy_facial_recognition.py -i images/obama_michelle.jpg
 
-        python easy_facial_recognition.py -i videos/test.mp4
+video : 
 
-real time : python interface.py
+python interface.py -i videos/video.mp4
 
-            python easy_facial_recognition.py
+python easy_facial_recognition.py -i videos/test.mp4
+
+real time : 
+
+python interface.py
+
+python easy_facial_recognition.py
 
 
 
